@@ -1,10 +1,11 @@
 Rails.application.routes.draw do
+  root 'pages#home'
+
   resources :portfolios
-  get 'pages/home'
 
-  get 'pages/about'
+  get '/about', to: 'pages#about'
 
-  get 'pages/contact'
+  get '/contact', to: 'pages#contact'
 
   # Encapsulate predefined rails routes
   # Take note that there are 2 diff types of update routes
