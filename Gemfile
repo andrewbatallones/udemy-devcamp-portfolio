@@ -9,7 +9,7 @@ end
 
 gem 'rails', '~> 5.1', '>= 5.1.7'
 gem 'pg', '~> 1.1', '>= 1.1.4'
-gem 'puma', '~> 4.2', '>= 4.2.1'
+gem 'puma', '~> 4.3'
 gem 'turbolinks', '~> 5.2', '>= 5.2.1'
 gem 'bootstrap', '~> 4.3.1'
 
